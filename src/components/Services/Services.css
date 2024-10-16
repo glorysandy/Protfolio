@@ -1,0 +1,93 @@
+.services {
+  padding: 0 3rem 0 3rem;
+  display: flex;
+  height: 30rem;
+  margin-bottom: 8rem;
+  margin-top: 5rem;
+  margin-bottom: 13rem;
+  /* scroll view */
+  padding-top: 3rem;
+}
+/* left side */
+.awesome {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  /* gap: 20px; */
+}
+
+.awesome > :nth-child(1) {
+  color: var(--black);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.awesome > :nth-child(2) {
+  color: purple;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.awesome > :nth-child(3) {
+  color: var(--gray);
+  font-size: 14px;
+  margin-top: 1rem;
+}
+.s-back{
+  display: flex;
+  position: relative;
+  height: 80vh;
+  width: 80vh;
+  margin-left: -130px;
+  margin-top: -3rem;
+}
+
+.s-button {
+  width: 10rem;
+  height: 2.4rem;
+  margin-top: -0.3rem;
+font-weight: 600;
+}
+/* right sided */
+.cards {
+  position: relative;
+  left: 32vh;
+}
+.cards > * {
+  position: absolute;
+}
+
+/* blur */
+.s-blur2 {
+  left: 14rem;
+  top: 8rem;
+}
+
+.s-blur1 {
+  top: 13rem;
+  left: -18rem;
+}
+
+@media screen and (max-width: 480px) {
+  .services {
+    margin-top: 4rem;
+    flex-direction: column;
+    gap: 5rem;
+    height: 66rem;
+    padding: 2px;
+  }
+.s-back{
+  transform: scale(0.8);
+  padding: 1rem;
+}
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 17rem;
+  }
+  .cards > * {
+    position: static;
+  }
+  .s-button{
+    justify-content: center;
+    margin-left: 4rem;
+  }
+}

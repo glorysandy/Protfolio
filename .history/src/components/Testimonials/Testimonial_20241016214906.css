@@ -1,0 +1,105 @@
+.t-wrapper{
+    padding:  0 3rem 0 3rem;;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7rem;
+    flex-direction: column;
+    gap: 2rem;
+    position: relative;
+    
+
+}
+.t-heading{
+    align-self: start;
+    
+}
+.t-heading>*{
+    font-size: 2rem;
+    font-weight: bold;
+ 
+}
+.t-heading span:nth-of-type(2){
+    color: rgba(170, 0, 170, 0.733);
+}
+.head{
+    margin-left: -90vh;
+    margin-top: -1rem;
+    font-size: 20vh;
+    color: purple;
+    font-weight: bold;
+    display: none;
+}
+.t-blur1{
+    left: 38rem;
+    top: 16rem;
+}
+.t-blur2{
+    top: 9rem;
+    left: 0;
+}
+.t-back{
+    display: flex;
+    position: relative;
+    width: 35rem;
+    height:35rem;
+    left:-115vh;
+    top:-3rem;
+}
+.t-sen{
+font-size:1.6rem;
+font-family:;
+}
+.t-sen:hover{
+cursor: pointer;
+color: rgb(121, 1, 101);
+box-shadow: 0 0 20px rgb(255, 53, 238);
+padding: 0.7rem;
+border-radius: 5px;
+}
+.dup{
+    display: none;
+    
+}
+.dup{
+    cursor: pointer;
+    color: rgb(121, 1, 101);
+    box-shadow: 0 0 20px rgb(255, 53, 238);
+    padding: 0.7rem;
+    border-radius: 5px;
+     
+}
+@media screen and (max-width: 480px) {
+    
+    .t-back{
+        flex-direction: column;
+        transform: scale(0.6);
+        margin-left:  -115px;
+        gap:5rem;
+        height: 64rem;
+        margin-top: -70vh;
+        position: relative;
+    }
+    .head{
+        margin-top: -300vh;
+        display: flex;
+        margin-left: -20px;
+    font-size: 20rem;
+    font-weight: bolder;
+    }
+    .dup  {
+        
+        display: flex;
+        margin-top: 4vh;
+        transform: scale(1.0);
+        border: 5px solid purple;
+        color: black;
+        width: 65vh;
+        justify-content: start;
+    }
+    .c-t{
+        transform: scale(0.7);
+        margin-top: -2rem;
+    }
+}
