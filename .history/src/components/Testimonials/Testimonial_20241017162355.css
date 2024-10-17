@@ -101,9 +101,6 @@ border-radius: 5px;
     }
     .dup:hover{
         cursor: pointer;
-        color: rgb(121, 1, 101);
-box-shadow: 0 0 20px rgb(255, 53, 238);
-
     }
     .c-t{
         transform: scale(0.7);

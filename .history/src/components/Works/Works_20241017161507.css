@@ -107,7 +107,7 @@ padding: 2.2rem;
 @media screen and (max-width: 480px) {
   .works {
     flex-direction: column;
-  height: 170vh;
+  height: 0vh;
     padding: 1rem;
     gap: 5rem;
     position: relative

@@ -26,7 +26,7 @@
   color: rgb(136, 7, 136);
   
   font-weight: bold;
-  font-size: 2.9rem;
+  font-size: 2.rem;
 }
 .i-name > :nth-child(3) {
   font-weight: 100;
@@ -112,7 +112,7 @@
   .Intro {
     flex-direction: column;
     gap: 7rem;
-    height: 43rem;
+    height: 64rem;
   }
 
   .i-right {

@@ -71,7 +71,7 @@ font-weight: 600;
     margin-top: 4rem;
     flex-direction: column;
     gap: 5rem;
-    height: 70rem;
+    height: 66rem;
     padding: 2px;
   }
 .s-back{
@@ -84,7 +84,7 @@ font-weight: 600;
     gap: 17rem;
     width:260px ;
     justify-content: center;
-    margin-left: -2rem!important;
+    margin-left: -2rem ;
   }
   .cards > * {
     position: static;

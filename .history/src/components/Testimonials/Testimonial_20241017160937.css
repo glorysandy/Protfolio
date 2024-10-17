@@ -82,8 +82,7 @@ border-radius: 5px;
         display: none;
     }
     .head{
-        margin-top: 2rem;
-        padding: 1rem;
+        padding: ;
         display: flex;
         margin-left: -20px;
     font-size: 20rem;
@@ -92,18 +91,12 @@ border-radius: 5px;
     .dup  {
         
         display: flex;
-        margin-top: 1px;
+        margin-top: 4vh;
         transform: scale(0.8);
         border: 5px solid purple;
         color: black;
-        width: 16rem;
+        width: 340px;
         justify-content: start;
-    }
-    .dup:hover{
-        cursor: pointer;
-        color: rgb(121, 1, 101);
-box-shadow: 0 0 20px rgb(255, 53, 238);
-
     }
     .c-t{
         transform: scale(0.7);

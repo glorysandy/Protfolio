@@ -99,12 +99,7 @@ border-radius: 5px;
         width: 16rem;
         justify-content: start;
     }
-    .dup:hover{
-        cursor: pointer;
-        color: rgb(121, 1, 101);
-box-shadow: 0 0 20px rgb(255, 53, 238);
-
-    }
+    .dup
     .c-t{
         transform: scale(0.7);
         margin-top: -2rem;
