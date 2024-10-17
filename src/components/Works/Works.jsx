@@ -25,7 +25,7 @@ const Works = () => {
           </span>
          <span style={{ color: darkMode ? "pink" : "" , color: "purple",fontsize: "1.8rem"}} > TECHNICAL SKILLS</span>
           <span  className="tex" style={{border: "2px solid purple", fontSize: "17.2px",color:"var(--Black)",borderRadius:"10px",
-          padding:"2rem",height:"60vh",width:"68vh",marginTop:"1rem",fontWeight:"600",
+          padding:"2rem",height:"70vh",width:"68vh",marginTop:"1rem",fontWeight:"600",
             color: darkMode ? "white" : "" }}>
             FRONTEND SKILLS:<br></br><br></br>
             🟣  HTML5<br></br>
@@ -48,7 +48,7 @@ const Works = () => {
 🟡 API design and development (RESTful APIs)<br></br>
           </span>  
           <Link to="contact" smooth={true} spy={true}>
-            <button className="button k-button" style={{marginTop:"2rem"}}>HIRE ME</button>
+            <button className="button k-button" style={{marginTop:"3rem"}}>HIRE ME</button>
           </Link>
           <div
             className="blur s-blur1"
