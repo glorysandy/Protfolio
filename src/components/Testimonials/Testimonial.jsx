@@ -17,7 +17,7 @@ const Testimonial = () => {
           src={back}
           alt=""
         /> 
-</div> <div className="t-sen" style={{fontSize:"1.6rem",fontWeight: "7rem",  position: "absolute", marginTop: "-100vh" ,marginLeft: "-48px",marginRight: "18px"
+</div> <div className="t-sen" style={{fontSize:"1.6rem",fontWeight: "700",  position: "absolute", marginTop: "-90vh" ,marginLeft: "-48px",marginRight: "18px"
 }}> <span>As a Full Stack Developer with 4 months of experience, I've   successfully completed 10+ projects , leveraging Front-end:  HTML/CSS (structure, styling), JavaScript , React (frameworks) ,Bootstrap, Material-UI (UI libraries), Responsive web design, Git (version control)
 , Back-end:java (programming language),Database management ( MySQL). I've developed my soft skills like Team collaboration , Adaptability, Time management .I've enhanced code quality, implemented authentication   and authorization
 ,  Developed and integrated new features
