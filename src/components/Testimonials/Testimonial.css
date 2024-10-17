@@ -28,7 +28,7 @@
     margin-top: -1rem;
     font-size: 20vh;
     color: purple;
-    font-weight: bold;
+    font-weight: 900;
     display: none;
 }
 .t-blur1{
@@ -87,7 +87,7 @@ border-radius: 5px;
         display: flex;
         margin-left: -20px;
     font-size: 25rem;
-    font-weight: bolder;
+    font-weight: 900;
     }
     .dup  {
         
